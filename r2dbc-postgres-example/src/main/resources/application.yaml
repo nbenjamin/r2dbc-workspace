@@ -1,0 +1,12 @@
+
+spring:
+  r2dbc:
+    url: r2dbc:postgres://admin:admin@localhost:5432/customer
+
+logging:
+  level:
+    org.springframework.data.r2dbc: DEBUG
+    org.springframework: DEBUG
+
+server:
+  port: 8087
